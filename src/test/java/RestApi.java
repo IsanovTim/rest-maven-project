@@ -25,9 +25,9 @@ public class RestApi {
                 .then().extract().as(CreateUserResponse.class);
 
     }
-    @Test
-    public void test(){
-        given().post("https://reqres.in//api/users").then().statusCode(201);
-    }
+ /*  @Test
+   public void test(){
+        given().post("https://reqres.in/api/users").then().statusCode(201);
+    }*/
 
 }
